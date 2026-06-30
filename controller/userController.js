@@ -1,4 +1,4 @@
-const User = require("../models/User");
+const User = require("../models/user");
 const { faker } = require("@faker-js/faker");
 
 exports.createDummyUsers = async (req, res) => {
